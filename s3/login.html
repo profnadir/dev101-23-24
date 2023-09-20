@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <!--  <form action="dashboard.html" method="post">
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email">
+        <br>
+        <label for="pwd">Mot de passe</label>
+        <input type="password" name="pwd" id="pwd">
+        <br>
+        <input type="submit">
+    </form> -->
+    <form action="welecome.html" method="get">
+        <fieldset>
+            <legend>Coordos</legend>
+            <label for="centre">Centre</label>
+            <input type="text" name="centre" id="centre" value="CFPMSM" readonly>
+            <br>
+            <label for="nom">Nom*</label>
+            <input type="text" name="nom" id="nom" placeholder="nom" required >
+            <br>
+            <label for="prenom">Prenom*</label>
+            <input type="text" name="prenom" id="prenom" placeholder="prenom" required>
+            <br>
+            <label for="tel">tel</label>
+            <input type="text" name="tel" id="tel" placeholder="06-06060606" autofocus>
+            <br>
+        </fieldset>
+        <label for="dateNaissance">Date Naissance</label>
+        <input type="date" name="dateNaissance" id="dateNaissance">
+        <br>
+        <label for="description">Description</label>
+        <textarea name="description" id="description" cols="30" rows="3"></textarea>
+        <br>
+
+        <input type="radio" name="s" id="m" value="Masculin"> 
+        <label for="m">Masculin</label><br>
+        <input type="radio" name="s" id="f" value="Feminin">
+        <label for="f">Feminin</label><br>
+        <label for="age">Age :</label>
+        <input type="number" id="age" name="age" min="0" max="100" step="10" value="30">
+        <br>
+        
+        <input type="checkbox" id="vehicule1" name="vehicule1" value="velo">
+        <label for="vehicule1"> J'ai un vélo</label><br>
+        <input type="checkbox" id="vehicule2" name="vehicule2" value="voiture">
+        <label for="vehicule2">J'ai une voiture</label><br>
+        <input type="checkbox" id="vehicule3" name="vehicule3" value="bateau">
+        <label for="vehicule3"> J'ai un bateau</label>
+        <br>
+        <select name="villes" id="villes" multiple>
+            <option >Casablanca</option>
+            <!-- http://...&villes=Casablanca&... -->
+            <option value="t">Tanger</option>
+            <!-- http://...&villes=t&... -->
+            <option value="r">Rabat</option>
+        </select>
+        <br>
+        <input type="range" id="vol" name="vol" min="0" max="50">
+        <br>
+
+        <label for="email">Email*</label>
+        <input type="email" name="email" id="email" placeholder="merci d'ajouter un email" required autofocus>
+        <br>
+        <label for="file">file</label>
+        <input type="file" name="file" id="file" multiple>
+        <br>
+        <label for="pwd">Mot de passe</label>
+        <input type="password" name="pwd" id="pwd">
+        <br>
+        <input type="submit" value="Inscrire">
+        <input type="reset" value="Reinialiser">
+    </form>
+</body>
+</html>
