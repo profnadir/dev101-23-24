@@ -1,0 +1,37 @@
+/*h1{
+    color: red;
+     text-align: center;
+    background-color: green; 
+}
+*/
+
+
+/* .dev101{
+    color: red;
+}
+
+.dev102{
+    color: green;
+} */
+
+#dev101{
+    color: #ff0000; 
+}
+
+#dev102{
+    color: green;
+}
+
+.danger{
+    text-align: center;
+}
+
+#p1{
+    color: aqua;
+}
+#p2{
+    color:blueviolet;
+}
+#p3{
+    color: brown;
+}
