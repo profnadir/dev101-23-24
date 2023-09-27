@@ -1,0 +1,111 @@
+#myDiv1
+{
+    background-color: yellow;
+    border: 10px solid black;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px gray;
+    margin-bottom: 50px;
+    padding-top: 50px;
+}
+
+#myDiv2
+{
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    border: 5px solid black;
+    border-radius: 50%;
+    box-shadow: 10px 10px 10px red;
+    margin:100px 200px 300px 400px;
+    
+}
+
+p{
+    font-size: 36px;
+    text-shadow: 1px 1px 10px green;
+}
+
+table, tr, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+
+/* h2,div,p{
+    color: red;
+    text-align: center;
+    font-weight: bold;
+} */
+
+/* div ~ p{
+    background-color: yellow;
+}
+
+p + span
+{
+    color : red;
+}
+
+.center{
+    text-align: center;
+}
+
+.danger{
+    color: red;
+} */
+
+
+/* a[title*="test"]{
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    background-color: blueviolet;
+} */
+
+/* .link a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    background-color: blueviolet;
+}
+
+.link a:hover{
+    text-decoration: none;
+    color: white;
+    padding: 20px 40px;
+    background-color: violet;
+    font-size: large;
+}
+
+a:visited{
+    color: red;
+}
+
+a:before{
+    content: '*';
+}
+
+.inp:focus{
+    background-color: yellow;
+    color: red;
+} */
+
+input:invalid{
+    border: 1px solid red;
+}
+
+/* .div1{
+    width: 750px;
+    height: 450px;
+    background-image: url('img_forest.jpg');
+    background-repeat: no-repeat;
+}
+
+form{
+    background-color: red;
+}
+
+form:hover{
+    background-color: unset;
+} */
+
