@@ -1,0 +1,54 @@
+Rappel :
+
+- margin v1 v2 v3 v4 
+- padding v1 v2 v3 v4
+- box-shadaw : x y o c
+- text-shadaw : x y o c
+- border : f t c / border-radius
+- typographie : font-family font-size text-align  ...
+- selecteurs : 
+    * nom
+    * id 
+    * class
+    * el1.class
+    * el1#id
+    * elt1,elt2
+    * elt1 elt2
+    * elt1 > elt2
+    * elt1 + elt2
+    * elt1 ~ elt2
+    * [attr=val]
+    * *{ }
+    * pseudo class :hover :visited :active :after :before :focus ...
+
+Objectifs :
+
+* backgroud
+* mise en page : 
+  -- tableaux nr
+  -- position et float
+  -- flexbox
+  -- framework : bootstrap
+  -- grid system
+
+flux normal  : static
+inline bloc
+
+static : ok 
+relative : ok
+fixed : ok
+absolute : ok
+sticky : ok
+
+Resume:
+
+- backgroud-image : reapeat size(cover 100vh 100%) attachement(fixed) 
+- img : filter width heigth max-width 
+- postion 
+- float
+- display
+- box-sizing 
+
+flexbox 
+
+

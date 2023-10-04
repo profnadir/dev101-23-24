@@ -1,0 +1,36 @@
+*{
+    box-sizing:border-box;
+}
+
+#header{
+    background-color: grey;
+    height: 100px;
+}
+
+#sidebar1{
+    background-color: green;
+    height: 500px;
+    width: 10%;
+    float: left;
+    padding-left: 10px;
+}
+
+#main{
+    background-color: red;
+    height: 500px;
+    width: 80%;
+    float: left;
+}
+
+#sidebar2{
+    background-color: gold;
+    height: 500px;
+    width: 10%;
+    float: left;
+}
+
+#footer{
+    clear: both;
+    background-color: black;
+    height: 100px;
+}

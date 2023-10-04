@@ -1,0 +1,106 @@
+body{
+    height: 4000px;
+}
+
+#myImg{
+    width: 150px;
+    height: 150px;
+    float: right;
+}
+
+#myDiv1{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    position: relative;
+    left: 0px;
+    bottom: 0px;
+    z-index: 100;
+    /* margin-top: 150px; */
+
+}
+#myDiv2{
+    
+    width: 200px;
+    height: 200px;
+    background-color: gold;
+    position: relative;
+    left: 100px;
+    bottom: 100px;
+    z-index: 99;
+  /*   position: relative; */
+}
+#myDiv3{
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    position: relative;
+    left: 200px;
+    bottom: 200px;
+    z-index: 999;
+    /* position: absolute;
+    top: 50px;
+    left: 50px; */
+}
+
+/* #myDiv1{
+    width: 200px;
+    height: 100px;
+    background-color: red;
+    position: sticky;
+    top: 0;
+    left: 0;
+   border-radius: 50%; 
+
+}
+#myDiv2{
+    width: 200px;
+    height: 100px;
+    background-color: gold;
+    position: sticky;
+    top: 100px;
+    left:0;
+}
+#myDiv3{
+    width: 200px;
+    height: 100px;
+    background-color: black;
+    position: sticky;
+    top: 200px;
+    left: 0;
+} */
+
+
+/* body{
+    height: 5000px;
+    background-image: url('photo.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100vh;
+    background-attachment: fixed;
+}
+
+#myP{
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    padding: 50px;
+    font-size: 20px;
+    margin-top: 150px;
+    margin-left: 250px;
+    border-top: 10px solid black;
+    border-bottom: 10px solid black;
+} */
+
+/* #myImg1{
+    max-width: 100%;
+    height: auto;
+}
+
+#myImg{
+    width: 400px;
+    height: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    opacity: 1;
+    filter: grayscale(100%);
+} */
