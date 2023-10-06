@@ -1,0 +1,13 @@
+Rappel : 
+
+- Position : relative absolute sticky static fixed
+- flaot : left right none
+- clear : both
+- display : inline / block 
+- width vs max-width
+- backgroud-image : attachement + size + position + repeat
+- box-sizing : 
+
+Objectifs : 
+
+flexbox
