@@ -1,0 +1,31 @@
+Rappel: 
+
+- transformations :
+
+* div{
+    transform : rotate(xdeg) translate() scale() scaleX scaleY skew ... rotateX Y Z matrice(6v)
+
+}
+- transitions :
+
+div {
+    transition-duration
+    transition-delay
+    transition-property
+    transition-timing-function
+    transition : 
+}
+
+@keyframes ok
+animation-name ok 
+animation-duration ok
+animation-delay ok
+animation-iteration-count
+animation-direction
+animation-timing-function
+animation : exemple 4s 
+
+
+animation: name duration timing-function delay iteration-count direction fill-mode play-state;
+
+https://www.youtube.com/watch?v=NljIHlZRTTE
