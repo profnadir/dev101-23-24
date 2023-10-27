@@ -1,0 +1,17 @@
+les formulaires : form-control form-label form-check form-check-label form-check-input
+form-select form-control-lg form-switch
+
+typographie : bg- fs-[1..6] m-* p-* text-center text-start text-end 
+img-fluid text-primary 
+
+grid : container container-fluid row( col-*-*)
+
+boutons : btn btn-info - btn-outline-danger btn-lg 
+
+border border-warning border-[1..5]
+rounded rounder-[1..5] rounded-circle 
+shadow
+
+objectifs: 
+
+navbar + pagination + ...
