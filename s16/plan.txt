@@ -1,0 +1,8 @@
+navbar 
+pagination 
+breadcrumbs
+bagde
+alerts
+
+les progress bars + cards 
+...
